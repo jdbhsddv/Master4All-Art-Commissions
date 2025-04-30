@@ -1,44 +1,162 @@
-<html>
-  <title>My Info</title>
-  <link rel="icon" type="image/x-icon" href="https://t4.ftcdn.net/jpg/01/11/86/95/360_F_111869553_04OBDskYYU5r0b9PW3cfKfD3fkxlfAzW.jpg">
-    <div class="wrapper">
-      <img src="https://yt3.googleusercontent.com/Lc3LQVYvUwP0NP0fiGnMFvcQg7ioA9xOSQGTG2FE-5Ueud5MXuNqTPmUeauKSjnw-P39-EcHOWU=s160-c-k-c0x00ffffff-no-rj" alt="">
-     <u> <h1 style="text-align: center;">Master4All</h1></u>
-      <p>Hello! I am looking for an Art commission to do for people. I am a slow drawer and not very professional art Examples: <img src="https://media.discordapp.net/attachments/1246309855434772522/1251574789794168922/IMG_20240601_231623362.jpg?ex=668ac2db&is=6689715b&hm=77ad3e649dafd664e5843b5048d161b3174d130fc480bfa2451d5d40e1eed2de&=&format=webp&width=444&height=592" alt=""></p>
-      <u><h2 style="text-align: center;">What I Can Draw</h2></u>
-      <p>I can draw human portraits, and landscapes </p>
-       <u><h2 style="text-align: center;">What I Cannot Draw</h2></u>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Master4All Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url("https://wallpapercave.com/wp/wp5410558.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      animation: underline 8s ease-in;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: 0.3s ease;
+    }
+
+    .avatar:hover {
+      opacity: 0.6;
+    }
+
+    h1 {
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      font-family: cursive;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.4rem;
+      text-decoration: underline;
+    }
+
+    ul.skills {
+      list-style: none;
+      margin: 10px 0;
+    }
+
+    ul.skills li {
+      margin: 5px 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      color: #00ffff;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: 0.6s ease-in-out;
+    }
+
+    @keyframes underline{
+      0% {display: none;}
+      50% {display: none;}
+      80% {opacity 0%;}
+      100% {opacity: 100%;}
+    }
+    #roblox, #email{
+      color: white;
+      width: 150px;
+      height: 30px;
+      border-radius: 30px;
+      background-color: black;
+      border-color: black;
+      cursor: pointer;
+      transition-duration: 0.4s;
+    }
+    #roblox:hover, #email:hover{
+      background-color: white;
+      color: black;
+      
+    }
+    @keyframes quote-animation {
+      from{opacity: 100%;}
+      to {opacity: 0%}
+    }
+    .quote {
+            background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      animation: quote-animation 4s;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="quote">
+    <h1>"Talent without working hard is nothing" <br> -Ronaldo</h1>
+  </div>
+  <div class="card">
+    <a href="https://www.roblox.com/users/3333754299/profile?friendshipSourceType=PlayerSearch" target="_blank">
+      <img class="avatar" src="https://media.discordapp.net/attachments/1364689731232993350/1364699154428727438/jdbhsddv_1.png?ex=68113621&is=680fe4a1&hm=63c658590afb5da297a93307f9f7d5eda5e1a2e89efdbd9e09835aa8f5aa40c1&=&format=webp&quality=lossless&width=527&height=527" alt="Profile Image">
+    </a>
+
+    <h1>Master4All</h1>
+    <p class="bio">
+      Hello! I am a beginner scripter and experienced builder in Roblox. I’m part of a team right now and still learning — but always open to the future!
+    </p>
+
+    <div class="section-title" style="font-family: 'Luckiest Guy', sans-serif">Skills</div>
+    <ul class="skills">
+      <li>Pro Building</li>
+      <li>Basic Lua Scripting</li>
+    </ul>
+    <u><h1>Projects</h1></u>
+
+    <div class="section-title" style="font-family: 'Luckiest Guy', sans-serif">Contact</div>
+    <div class="links">
+      <a href="https://www.roblox.com/users/3333754299/profile?friendshipSourceType=PlayerSearch" target="_blank" ><button style="font-family: 'Luckiest Guy', sans-serif" id='roblox'>Roblox Profile</button></a>
+      <a href="mailto:master4allbusiness@protonmail.com" target="_blank"><button id="email" style="font-family: 'Luckiest Guy', sans-serif">Email Me</button></a>
+      <!-- Add Discord or other links here if you want -->
     </div>
-  </body>
-<style>
-html{
-  font-family: sans-serif;
-  color: white;
-  font-size: 30px;
-  background-color: black;
-}
-p{
-  font-size: 50px;
-}
-h1{
-  text-align: center;
-  font-size: 50px;
-}
-img{
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.wrapper{
-  border: 3px solid red;
-  border-radius: 10%;
-  background-color: #D22D2D;
-  color: white;
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  padding-left: 100px;
-}
-</style>
+  </div>
+</body>
 </html>
+<script>
+  const quote = document.querySelector('.quote');
+    quote.addEventListener('animationend', () => {
+      quote.remove(); // Removes the quote from the DOM
+    });
+
+</script>
